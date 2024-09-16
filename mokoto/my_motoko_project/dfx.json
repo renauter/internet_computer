@@ -1,0 +1,16 @@
+{
+  "canisters": {
+    "my_motoko_project": {
+      "main": "src/my_motoko_project/main.mo",
+      "type": "motoko"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": "mops sources"
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
